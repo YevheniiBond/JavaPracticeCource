@@ -1,4 +1,4 @@
-package java8;
+package java8.Section6.Generic;
 
 import java.util.ArrayList;
 
@@ -28,8 +28,8 @@ public class GenericMethod {
     }
 }
 
-class BaseGenMeth{
-    public static <T> T getSecondElement(ArrayList<T> a1){
+class BaseGenMeth {
+    public static <T> T getSecondElement(ArrayList<T> a1) {
         return a1.get(2);
     }
 }

@@ -1,4 +1,4 @@
-package java8;
+package java8.Section6.Generic;
 
 public class Generic {
     public static void main(String[] args) {

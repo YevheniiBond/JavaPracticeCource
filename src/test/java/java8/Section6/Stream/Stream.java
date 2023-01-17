@@ -1,4 +1,4 @@
-package java8.HomeWork1;
+package java8.Section6.Stream;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,4 +16,5 @@ public class Stream {
         }
         System.out.println(greetings);
     }
+
 }

@@ -1,4 +1,4 @@
-package java8.HomeWork1.Lambda.LambdaUsers.Cars;
+package java8.Section6.Lambda.Cars;
 
 import org.testng.annotations.Test;
 

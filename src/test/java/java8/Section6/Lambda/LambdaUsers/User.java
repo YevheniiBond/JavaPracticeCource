@@ -1,4 +1,4 @@
-package java8.HomeWork1.Lambda.LambdaUsers;
+package java8.Section6.Lambda.LambdaUsers;
 
 public class User {
 
