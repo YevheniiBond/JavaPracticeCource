@@ -22,14 +22,18 @@ public class CountryTest {
         List<Country> listOfCountries = Arrays.asList(country1, country2, country3,
                 country4, country5, country6);
 
-//        Predicate<Country> predicatePopulations = country -> country.populations > 30000000;
-//        filterCountries(listOfCountries, country -> country.name.contains("U"));
+        Predicate<Country> predicatePopulations = country -> country.populations > 30000000;
+        filterCountries(listOfCountries, country -> country.name.contains("U"));
 
 
          listOfCountries = listOfCountries.stream().sorted(
                 (x,y)-> x.getName().compareTo(y.getName())
         ).collect(Collectors.toList());
         System.out.println(listOfCountries);
+
+
+        System.out.println(listOfCountries);
+
 
     }
 
