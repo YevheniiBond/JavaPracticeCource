@@ -1,4 +1,4 @@
-package basic.actionsWithStrings;
+package basic.strings;
 
 public class ReverseString {
 

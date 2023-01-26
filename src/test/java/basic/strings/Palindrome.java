@@ -1,6 +1,10 @@
-package basic.actionsWithStrings;
+package basic.strings;
+
+import netscape.javascript.JSException;
+import org.openqa.selenium.JavascriptException;
 
 public class Palindrome {
+   String  fsd ="dsd";
     // what is palindrom - mom, dad, poop, 1234321;
     public static void main(String[] args) {
         String x = "abcdaedcba";
@@ -14,5 +18,7 @@ public class Palindrome {
         }
         System.out.println("Palindrome");
     }
+
+    
 }
 
