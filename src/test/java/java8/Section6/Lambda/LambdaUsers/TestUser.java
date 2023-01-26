@@ -35,14 +35,14 @@ public class TestUser {
 
         Predicate<User> predicateAge40 =  user -> user.age >= 40;
         Predicate<User> predicateFemales = user -> user.sex != male;
-//        userFilter(listOfUser, user -> user.sex != female);
-//        userFilter(listOfUser, user -> user.name.contains("J"));
-//        userFilter(listOfUser, user -> user.weight <= 40 && user.sex != male );
-//        userFilter(listOfUser, user -> user.speciality.contains("sport"));
-//        userFilter(listOfUser, user -> user.weight == 30);
-//        userFilter(listOfUser, user -> user.weight >= 90);
-//        userFilter(listOfUser, user -> user.speciality.contains("guide"));
-//        userFilter(listOfUser,user -> user.age > 100);
+        userFilter(listOfUser, user -> user.sex != female);
+        userFilter(listOfUser, user -> user.name.contains("J"));
+        userFilter(listOfUser, user -> user.weight <= 40 && user.sex != male );
+        userFilter(listOfUser, user -> user.speciality.contains("sport"));
+        userFilter(listOfUser, user -> user.weight == 30);
+        userFilter(listOfUser, user -> user.weight >= 90);
+        userFilter(listOfUser, user -> user.speciality.contains("guide"));
+        userFilter(listOfUser,user -> user.age > 100);
         userFilter(listOfUser, predicateAge40.and(predicateFemales));
     }
 
@@ -59,6 +59,9 @@ public class TestUser {
             if (predicate.test(user)) {
                 System.out.println(user);
             }
+
         }
+
     }
+
 }
