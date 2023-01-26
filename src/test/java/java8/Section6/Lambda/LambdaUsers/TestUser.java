@@ -28,7 +28,7 @@ public class TestUser {
         User user13 = new User(40, "Rubby", 90, false, "hotel manager");
         User user14 = new User(21, "Viktoria", 61, false, "tour guide");
         User user15 = new User(21, "Lil", 40, false, "government officer ");
-        
+
         List<User> listOfUser = Arrays.asList(user1, user2, user3, user4, user5, user6, user7,
                 user8, user9, user10, user11, user12, user13, user14, user15);
 
