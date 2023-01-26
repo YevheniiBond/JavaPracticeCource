@@ -52,6 +52,7 @@ public class TestUser {
 //            }
 //        });
 //    }
+
     public void userFilter(List<User> listOfUser, Predicate<User> predicate) {
         for (User user : listOfUser) {
             if (predicate.test(user)) {
