@@ -32,6 +32,7 @@ public class TestUser {
         List<User> listOfUser = Arrays.asList(user1, user2, user3, user4, user5, user6, user7,
                 user8, user9, user10, user11, user12, user13, user14, user15);
 
+
         Predicate<User> predicateAge40 =  user -> user.age >= 40;
         Predicate<User> predicateFemales = user -> user.sex != male;
 //        userFilter(listOfUser, user -> user.sex != female);
